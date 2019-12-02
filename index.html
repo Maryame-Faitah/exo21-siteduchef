@@ -31,9 +31,9 @@
         <!-- carousel -->
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active" style="width: 0.7em; height: 0.7em; border-radius: 100%;"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1" style="width: 0.7em; height: 0.7em; border-radius: 100%;"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2" style="width: 0.7em; height: 0.7em; border-radius: 100%;"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -69,34 +69,32 @@
                             <span id="large">remember!</span>
                         </p>
                         <button type="button" class="btn btn1 rounded-pill">PURCHASE THEME</button>
-                        <button type="button" class="btn btn2 rounded-pill">LEARN MORE</button>
+                        <button type="button" class="btn btn2 rounded-pill"><h6>LEARN MORE</h6></button>
                     </div>
                 </div>
-               <div class="align-content-end">
-                   <img src="./public/img/bottom_decoration_img.png" alt="">
-                </div>
+            </div>
+            <div class="deco">
+
             </div>
         </div>
     </header>
 
     <!-- SECTION1 -->
-    <!-- <section class="section1">
-        <div class="container">
-            <div class="d-flex justify-content-center">
-                <div class="row d-flex">
-                    <div class="col">
-                        <img src="./public/img/box-left-top.png" alt="">
-                    </div>
-                    <div class="col-center">
-                        <h2><span>OUR</span> Story</h2>
-                        <img src="./public/img/decoration_line.png" alt="">
-                    </div>
-                    <div class="col">
-                        <img src="./public/img/box-right-top.png" alt="">
-                    </div>
+    <section class="section1">
+        <div class="container" id="part1">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./public/img/box-left-top.png" class="img1" alt="">
+                </div>
+                <div class="col-8">
+                    <h2><span>OUR</span> Story</h2>
+                    <img src="./public/img/decoration_line.png" alt="">
+                </div>
+                <div class="col-2">
+                    <img src="./public/img/box-right-top.png" class="img2" alt="">
                 </div>
             </div>
-            <div class="w-50">
+            <div class="w-50 mx-auto">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, fugiat officiis.
                     Sit, quasi qui nobis ab, facere aut vel excepturi nisi doloribus repudiandae,
                     blanditiis aliquid officia voluptas nihil eveniet praesentium ullam porro est
@@ -107,9 +105,74 @@
                     eius quia!
                 </p>
             </div>
-        </div>
-    </section> -->
+            <div class="row justify-content-center">
+                <div class="col-center mt-5">
+                    <h2><span>OUR</span> Menu List</h2>
+                    <img src="./public/img/decoration_line.png" alt="">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <div class="menu-list">
+                            <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home">
+                                <i class="fas fa-mug-hot fa-3x" id="icon1"></i>
+                                <h3>BreakFast</h3>
+                            </a>
+                            <hr>
+                        </div>
+                        <div class="menu-list">
+                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false">
+                                <i class="fas fa-utensils fa-3x"></i>
+                                <h3>Lunch</h3>
+                            </a>
+                        </div>
+                        <div class="menu-list">
+                            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                                aria-controls="v-pills-messages" aria-selected="false">
+                                <i class="fas fa-cookie-bite fa-3x"></i>
+                                <h3>Snacks</h3>
+                            </a>
+                        </div>
+                        <div class="menu-list">
+                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false">
+                                <i class="fas fa-concierge-bell fa-3x"></i>
+                                <h3>Dinner</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <ul class="list-group list-group-flush">
+  <li class="list-group-item">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul> -->
+                </div>
+                <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                        
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
 
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- JS -->
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
