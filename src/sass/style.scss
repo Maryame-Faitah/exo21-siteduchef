@@ -1,0 +1,109 @@
+// VARIABLES
+$primary: #C42F40;
+$secondary: white;
+$tertiary: black;
+
+// HEADER
+header{
+    // navbar
+    nav{
+        z-index:9;
+        margin: 2% 7%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        margin: 0;
+        .menu{
+            border-top: 1px solid rgba(255, 255, 255, 0.521);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.521);
+            margin: 4%;
+            .coloré{
+                background-color: $primary;
+            }
+            a{
+                color: $secondary;
+                
+            }
+            a:hover{
+                background-color: $primary;
+            } 
+        } 
+        img{
+            width: 5%;
+            height: 0%;
+            margin: 1% 0;
+        }   
+    }       
+    // carousel
+    .carousel{
+        li{
+            align-self: center;
+            width:0.7em;
+            height: 0.7em;
+            border-radius: 100%;
+        }
+        img{
+            filter: brightness(20%); 
+        }
+        .carousel-caption{
+            top:26%;
+            p{
+                font-family: 'Ubuntu', sans-serif;
+                font-family: 'Courgette', cursive;
+                text-align: center;
+                #small{
+                    font-size: 310%;
+                }
+                #taste{
+                    color:$primary;
+                }
+                #large,#taste,#occasion{
+                    font-size:400%;
+                }
+            }
+            img:last-child{
+                width: 100%;
+            }
+        }
+        .btn1{
+            background-color: $secondary;
+            color: $tertiary;
+        }
+        .btn2{
+            background-color: $primary;
+            color: $secondary
+        }
+        
+    }
+   
+}
+
+// SECTION1
+// .section1{
+//     background-image: url(../../public/img//main_bg.jpg);
+//     .container{
+//         border: 2px solid black;
+//         background-color: $secondary;
+//         position: relative;
+//         img{
+//         position: absolute;
+        
+        
+//         }
+        
+//         span{
+//             color:$primary;
+//             font-size: 150%;
+//         }
+//         h2,span{
+//             font-family: 'Ubuntu', sans-serif;
+//             font-family: 'Courgette', cursive;
+//         }
+//         .col-center{
+//             align-self: center;
+//         }
+//     }
+//     p{
+//         text-align: center;
+//     }
+// }

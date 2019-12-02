@@ -4,12 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./public/css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- HEADER -->
     <header>
-        
+        <!-- navbar -->
+        <nav class="nav d-flex justify-content-center">
+            <div class="menu d-flex">
+                <a href="#" class="nav-link coloré">HOME</a>
+                <a href="#" class="nav-link">ABOUT US</a>
+                <a href="#" class="nav-link">MENU LIST</a>
+                <a href="#" class="nav-link">TEAM</a>
+            </div>
+            <img src="./public/img/logo.png" alt="">
+            <div class="menu d-flex">
+                <a href="#" class="nav-link">RESERVATION</a>
+                <a href="#" class="nav-link">BLOG</a>
+                <a href="#" class="nav-link">TESTIMONIALS</a>
+                <a href="#" class="nav-link">CONTACT US</a>
+            </div>
+        </nav>
+        <!-- carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./public/img/banner1.jpg" class="d-block w-100" alt="#">
+                    <div class="carousel-caption justify-content-center">
+                        <p> <span id="small"> Whatever your </span><span id=occasion>OCCASION,</span><br>
+                            <span id="taste">TASTE </span> <span id="large">makes</span>
+                            <span id="small"> it one to <br></span>
+                            <span id="large">remember!</span>
+                        </p>
+                        <button type="button" class="btn btn1 rounded-pill">PURCHASE THEME</button>
+                        <button type="button" class="btn btn2 rounded-pill">LEARN MORE</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./public/img/banner1.jpg" class="d-block w-100" alt="#">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p><span id="small"> Whatever your </span><span id="occasion">OCCASION,</span><br>
+                            <span id="taste">TASTE </span> <span id="large">makes</span>
+                            <span id="small"> it one to <br></span>
+                            <span id="large">remember!</span>
+                        </p>
+                        <button type="button" class="btn btn1 rounded-pill">PURCHASE THEME</button>
+                        <button type="button" class="btn btn2 rounded-pill">LEARN MORE</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./public/img/banner1.jpg" class="d-block w-100" alt="#">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p><span id="small"> Whatever your </span><span id=occasion>OCCASION,</span><br>
+                            <span id="taste">TASTE</span> <span id="large">makes</span>
+                            <span id="small"> it one to <br></span>
+                            <span id="large">remember!</span>
+                        </p>
+                        <button type="button" class="btn btn1 rounded-pill">PURCHASE THEME</button>
+                        <button type="button" class="btn btn2 rounded-pill">LEARN MORE</button>
+                    </div>
+                </div>
+               <div class="align-content-end">
+                   <img src="./public/img/bottom_decoration_img.png" alt="">
+                </div>
+            </div>
+        </div>
     </header>
+
+    <!-- SECTION1 -->
+    <!-- <section class="section1">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <div class="row d-flex">
+                    <div class="col">
+                        <img src="./public/img/box-left-top.png" alt="">
+                    </div>
+                    <div class="col-center">
+                        <h2><span>OUR</span> Story</h2>
+                        <img src="./public/img/decoration_line.png" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./public/img/box-right-top.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="w-50">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, fugiat officiis.
+                    Sit, quasi qui nobis ab, facere aut vel excepturi nisi doloribus repudiandae,
+                    blanditiis aliquid officia voluptas nihil eveniet praesentium ullam porro est
+                    ea corporis consectetur. Inventore provident sunt doloribus aperiam nam recusandae,
+                    mollitia molestias, error architecto dolor laboriosam! Consectetur voluptates eum
+                    deserunt cum, dolorum fugiat nihil ut odit. Nisi praesentium dicta perferendis
+                    molestiae illo optio voluptates vel voluptatum. Itaque debitis veritatis illum
+                    eius quia!
+                </p>
+            </div>
+        </div>
+    </section> -->
+
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+    
 </body>
 </html>

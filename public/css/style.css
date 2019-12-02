@@ -1,1 +1,84 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+header nav {
+  z-index: 9;
+  margin: 2% 7%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+header nav .menu {
+  border-top: 1px solid rgba(255, 255, 255, 0.521);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.521);
+  margin: 4%;
+}
+
+header nav .menu .coloré {
+  background-color: #C42F40;
+}
+
+header nav .menu a {
+  color: white;
+}
+
+header nav .menu a:hover {
+  background-color: #C42F40;
+}
+
+header nav img {
+  width: 5%;
+  height: 0%;
+  margin: 1% 0;
+}
+
+header .carousel li {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 100%;
+}
+
+header .carousel img {
+  -webkit-filter: brightness(20%);
+          filter: brightness(20%);
+}
+
+header .carousel .carousel-caption {
+  top: 26%;
+}
+
+header .carousel .carousel-caption p {
+  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Courgette', cursive;
+  text-align: center;
+}
+
+header .carousel .carousel-caption p #small {
+  font-size: 310%;
+}
+
+header .carousel .carousel-caption p #taste {
+  color: #C42F40;
+}
+
+header .carousel .carousel-caption p #large, header .carousel .carousel-caption p #taste, header .carousel .carousel-caption p #occasion {
+  font-size: 400%;
+}
+
+header .carousel .carousel-caption img:last-child {
+  width: 100%;
+}
+
+header .carousel .btn1 {
+  background-color: white;
+  color: black;
+}
+
+header .carousel .btn2 {
+  background-color: #C42F40;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
