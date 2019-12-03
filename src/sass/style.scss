@@ -105,6 +105,7 @@ header{
             }
             .col-center{
                 align-self: center;
+                line-height:0;
             }
             .left{
                 left: 5.6%;
@@ -168,4 +169,114 @@ header{
         
     }
 }
+
+// SECTION2
+.container2{
+    background-image: url(../../public/img/team_background.jpg);
+    .row1{
+        padding-top:5%;
+        width: 100%;
+        .col-center{
+            line-height:0;
+        }
+        span{
+            color:$primary;
+            font-size: 150%;
+        }
+        h2,span{
+            font-family: 'Courgette', cursive;
+            text-align: center;
+        }
+        h2{
+            color: $secondary;
+        }
+    }
+    .row2{
+        width:80%;
+        .col-3{
+            img{
+
+                border-bottom: 1px solid white;
+            }
+            p{
+                color: $secondary;
+                text-align: center;
+            }
+        }
+    }
+}
+.container3{
+    width:85%;
+    border: 1px solid rgba(0, 0, 0, 0.233);
+    background-color: $secondary;
+    margin-top: 5%;
+    padding: 0;    
+    //row top deco
+    .row1{
+        margin:0;
+        width: 100%;
+        justify-content: space-between;
+        .col-2{
+            position: relative;
+            padding:0;
+        }
+        .col-center{
+            align-self: center;
+            line-height:0;
+        }
+        .left{
+            left: 5.6%;
+        }
+        span{
+            color:$primary;
+            font-size: 150%;
+        }
+        h2,span{
+            font-family: 'Courgette', cursive;
+            text-align: center;
+        }
+    }
+    .jumbotron{
+        background-image: url(../../public/img/book_table_bg.jpg);
+        z-index:1;
+        justify-content: space-around;
+        p{
+            color:$secondary;
+            text-align: center;
+        }
+        span{
+            font-size:140%;
+        }
+        a{
+            background-color: $primary;
+            color: $secondary;
+            font-size:90%;
+        }
+        .form-example{
+            width:100%;
+        }
+        input{
+            border-radius:10px;
+        }
+    }
+    //form
+    .col-center{
+        align-self: center;
+        line-height:0;
+        width:50%;
+    }
+    .text-center{
+        line-height:0;
+        span{
+            color:$primary;
+            font-size: 150%;
+        }
+        h2,span{
+            font-family: 'Courgette', cursive;
+            text-align: center;
+        }
+    }
+        
+    }
+   
 
