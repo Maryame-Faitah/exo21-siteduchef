@@ -2,7 +2,9 @@
 $primary: #C42F40;
 $secondary: white;
 $tertiary: black;
-
+body{
+    background-image: url(../../public/img//main_bg.jpg);
+}
 // HEADER
 header{
     // navbar
@@ -83,25 +85,28 @@ header{
        
     }
 
-
+}
 // SECTION1
 .section1{
-    background-image: url(../../public/img//main_bg.jpg);
-    #part1{
-        border: 5px solid rgba(0, 0, 0, 0.849);
+    .container{
+        width:85%;
+        border: 1px solid rgba(0, 0, 0, 0.233);
         background-color: $secondary;
         margin-top: 5%;
-        padding: 0;
-    
+        padding: 0;    
         .row{
             margin:0;
             width: 100%;
             justify-content: space-between;
             .col-2{
                 position: relative;
+                padding:0;
             }
-            .col-8{
+            .col-center{
                 align-self: center;
+            }
+            .left{
+                left: 5.6%;
             }
             span{
                 color:$primary;
@@ -111,22 +116,19 @@ header{
                 font-family: 'Courgette', cursive;
                 text-align: center;
             }
-            .w-50{
-                margin-top:3%;
-                p{
-                    text-align: center;
-                }
-            }
         }
         .row{
             .col-3{
                 .nav-pills,.nav-link{
                     border-radius: 0;
                 }
+                #v-pills-tab{
+                    border-right: 1px solid rgba(0, 0, 0, 0.335);
+                }
                 .menu-list{
                     a{
-                        border-right: 1px solid rgba(0, 0, 0, 0.171);
-                        //border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+                        border-bottom: 1px solid rgba(0, 0, 0, 0.335);
+                        margin-right:2%;
                         color: $tertiary;
                         align-self: center;
                         #icon1{
@@ -149,4 +151,4 @@ header{
         
     }
 }
-}
+
