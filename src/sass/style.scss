@@ -237,6 +237,7 @@ header{
             text-align: center;
         }
     }
+    //form
     .jumbotron{
         background-image: url(../../public/img/book_table_bg.jpg);
         z-index:1;
@@ -252,6 +253,7 @@ header{
             background-color: $primary;
             color: $secondary;
             font-size:90%;
+            margin-left:42%;
         }
         .form-example{
             width:100%;
@@ -260,7 +262,36 @@ header{
             border-radius:10px;
         }
     }
-    //form
+    //blog
+    .blog{
+        width:80%;
+        .card{
+            border: none;
+            
+            .font-chelou{
+                font-size:100%;
+            }
+            h2{
+                position: relative;
+                bottom: 20%;
+                left: 9%;
+                margin-top:20%;
+                font-size:150%;
+            }
+            img {
+                border-radius: 30px;
+                border: 5px solid rgb(239, 239,239);
+            }
+            .card-body{
+                h5{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .bouton .btn{
+        border-radius: 30px;
+    }
     .col-center{
         align-self: center;
         line-height:0;
@@ -279,7 +310,6 @@ header{
     }
         
 }
-
 
 // SECTION3
 .container4{

@@ -288,6 +288,7 @@ header .carousel .deco {
   background-color: #C42F40;
   color: white;
   font-size: 90%;
+  margin-left: 42%;
 }
 
 .container3 .jumbotron .form-example {
@@ -296,6 +297,39 @@ header .carousel .deco {
 
 .container3 .jumbotron input {
   border-radius: 10px;
+}
+
+.container3 .blog {
+  width: 80%;
+}
+
+.container3 .blog .card {
+  border: none;
+}
+
+.container3 .blog .card .font-chelou {
+  font-size: 100%;
+}
+
+.container3 .blog .card h2 {
+  position: relative;
+  bottom: 20%;
+  left: 9%;
+  margin-top: 20%;
+  font-size: 150%;
+}
+
+.container3 .blog .card img {
+  border-radius: 30px;
+  border: 5px solid #efefef;
+}
+
+.container3 .blog .card .card-body h5 {
+  font-weight: bold;
+}
+
+.container3 .bouton .btn {
+  border-radius: 30px;
 }
 
 .container3 .col-center {
