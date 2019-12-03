@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./public/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <!-- HEADER -->
     <header>
@@ -31,9 +33,12 @@
         <!-- carousel -->
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active" style="width: 0.7em; height: 0.7em; border-radius: 100%;"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1" style="width: 0.7em; height: 0.7em; border-radius: 100%;"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2" style="width: 0.7em; height: 0.7em; border-radius: 100%;"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"
+                    style="width: 0.7em; height: 0.7em; border-radius: 100%;"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"
+                    style="width: 0.7em; height: 0.7em; border-radius: 100%;"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"
+                    style="width: 0.7em; height: 0.7em; border-radius: 100%;"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -69,7 +74,9 @@
                             <span id="large">remember!</span>
                         </p>
                         <button type="button" class="btn btn1 rounded-pill">PURCHASE THEME</button>
-                        <button type="button" class="btn btn2 rounded-pill"><h6>LEARN MORE</h6></button>
+                        <button type="button" class="btn btn2 rounded-pill">
+                            <h6>LEARN MORE</h6>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -82,7 +89,8 @@
     <!-- SECTION1 -->
     <section class="section1">
         <div class="container">
-            <div class="row">
+            <!-- row top deco -->
+            <div class="row row1">
                 <div class="col-2">
                     <img src="./public/img/box-left-top.png" class="img1" alt="">
                 </div>
@@ -105,80 +113,189 @@
                     eius quia!
                 </p>
             </div>
-            <div class="row justify-content-center">
+            <!-- titre menu -->
+            <div class="row row1 justify-content-center">
                 <div class="col-center mt-5">
                     <h2><span>OUR</span> Menu List</h2>
                     <img src="./public/img/decoration_line.png" alt="">
                 </div>
             </div>
-            <div class="row mt-5">
-                <div class="col-3">
+            <div class="row galere mt-5">
+                <!--Icons-->
+                <div class="col-2 border-right div-icon">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <div class="menu-list">
-                            <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home">
-                                <i class="fas fa-mug-hot fa-3x" id="icon1"></i>
-                                <h3>BreakFast</h3>
-                            </a>
-                            
+                        <a class="nav-link " id="v-pills-home-tab">
+                            <i class="fas fa-mug-hot fa-3x icons icon1"></i>
+                            <p>BreakFast</p>
+                        </a>
+                        <a class="nav-link" id="v-pills-profile-tab">
+                            <i class="fas fa-hamburger fa-3x icons"></i>
+                            <p>Lunch</p>
+                        </a>
+                        <a class="nav-link" id="v-pills-messages-tab">
+                            <i class="fas fa-concierge-bell fa-3x icons"></i>
+                            <P>Snacks</P>
+                        </a>
+                        <a class="nav-link" id="v-pills-settings-tab">
+                            <i class="fas fa-mug-hot fa-3x icons"></i>
+                            <p>Lunch</p>
+                        </a>
+                    </div>
+                </div>
+                <!-- menu list -->
+                <div class="col-10 menu">
+                    <div class="row">
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="#">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <p><span class="gras">Dear Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center border-bottom ">
+                                <div class="text-danger"> $25 </div>
+                            </div>
                         </div>
-                        <div class="menu-list">
-                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-                                aria-controls="v-pills-profile" aria-selected="false">
-                                <i class="fas fa-utensils fa-3x"></i>
-                                <h3>Lunch</h3>
-                            </a>
-                           
-                        </div>
-                        <div class="menu-list">
-                            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-                                aria-controls="v-pills-messages" aria-selected="false">
-                                <i class="fas fa-cookie-bite fa-3x"></i>
-                                <h3>Snacks</h3>
-                            </a>
-                            
-                        </div>
-                        <div class="menu-list">
-                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-                                aria-controls="v-pills-settings" aria-selected="false">
-                                <i class="fas fa-concierge-bell fa-3x"></i>
-                                <h3>Dinner</h3>
-                            </a>
-                            <hr>
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="#">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center ">
+                                <p><span class="gras">Dear Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                                <div class=" d-flex justify-content-center align-items-center ">
+                                    <div class="text-danger"> $25 </div>
+                                </div>
+                                <hr>
+                            </div>
                         </div>
                     </div>
-                    <!-- <ul class="list-group list-group-flush">
-  <li class="list-group-item">Cras justo odio</li>
-  <li class="list-group-item">Dapibus ac facilisis in</li>
-  <li class="list-group-item">Morbi leo risus</li>
-  <li class="list-group-item">Porta ac consectetur ac</li>
-  <li class="list-group-item">Vestibulum at eros</li>
-</ul> -->
-                </div>
-                <div class="col-9">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        
-                        </div>
-                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="row">
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="...">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center">
 
+                                <p><span class="gras">Deer Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center ">
+                                <div class="text-danger"> $25 </div>
+                            </div>
+                            <hr>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="...">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center border-bottom">
+                                <p><span class="gras">Deer Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                                <div class=" d-flex justify-content-center align-items-center border-bottom">
+                                    <div class="text-danger"> $25 </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="...">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <p><span class="gras">Deer Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center ">
+                                <div class="text-danger"> $25 </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="...">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center border-bottom">
+                                <p><span class="gras">Deer Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                                <div class=" d-flex justify-content-center align-items-center border-bottom">
+                                    <div class="text-danger"> $25 </div>
+                                </div>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="...">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <p><span class="gras">Deer Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center ">
+                                <div class="text-danger"> $25 </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="...">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center border-bottom">
+                                <p><span class="gras">Deer Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                                <div class=" d-flex justify-content-center align-items-center border-bottom">
+                                    <div class="text-danger"> $25
 
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                            
+                    </div>
+                    <div class="row">
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="...">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <p><span class="gras">Deer Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center ">
+                                <div class="text-danger"> $25 </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <div class="col-6 d-flex flex-row">
+                            <div class=" d-flex justify-content-center align-items-center">
+                                <img src="./public/img/menu_image_1.jpg" alt="#">
+                            </div>
+                            <div class=" d-flex justify-content-center align-items-center border-bottom">
+                                <p><span class="gras">Deer Steak with Potatoes <br> Welcome to Risotto restaurant</span>
+                                    <br> website. Here we try to share our</p>
+                                <div class=" d-flex justify-content-center align-items-center border-bottom">
+                                    <div class="text-danger"> $25 </div>
+                                </div>
+                                <hr>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            
-            
-            <div class="row">
+            <!-- row bottom deco -->
+            <div class="row row1">
                 <div class="col-2">
                     <img src="./public/img/box-bottom-left.png" class="img1" alt="">
                 </div>
-               
+                <div class="col-center">
+                    <img src="./public/img/decoration_line.png" alt="">
+                </div>
                 <div class="col-2 left">
                     <img src="./public/img/box-bottom_right.png" class="img2" alt="">
                 </div>
@@ -191,6 +308,7 @@
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
-    
+
 </body>
+
 </html>

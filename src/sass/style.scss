@@ -94,7 +94,8 @@ header{
         background-color: $secondary;
         margin-top: 5%;
         padding: 0;    
-        .row{
+        //row top deco
+        .row1{
             margin:0;
             width: 100%;
             justify-content: space-between;
@@ -117,37 +118,53 @@ header{
                 text-align: center;
             }
         }
-        .row{
-            .col-3{
-                .nav-pills,.nav-link{
-                    border-radius: 0;
-                }
-                #v-pills-tab{
-                    border-right: 1px solid rgba(0, 0, 0, 0.335);
-                }
-                .menu-list{
-                    a{
-                        border-bottom: 1px solid rgba(0, 0, 0, 0.335);
-                        margin-right:2%;
-                        color: $tertiary;
-                        align-self: center;
-                        #icon1{
-                            color: $primary;
-                        }
-                        .fa-3x{
-                            color: rgba(128, 128, 128, 0.602);
-                        }
-                        .fa-3x:hover{
-                            color: $primary;
-                        }
-                    }
-                    h3{
-                        font-family: 'Courgette', cursive;
-                    }
-                }
 
+        //icons
+        .div-icon{
+            padding-right:0;
+        }
+        //Menu list
+        .nav-pills {
+            text-align: center;
+            #v-pills-home-tab{
+                border-bottom: 2px solid lightgrey;
+                border-right: 4px solid $primary;
+            }
+            #v-pills-profile-tab, #v-pills-messages-tab, #v-pills-settings-tab{
+                border-bottom: 2px solid lightgrey;
+                border-right: 2px solid lightgrey;
+            }
+            #v-pills-settings1-tab {
+                border-right: 2px solid lightgrey;
+            }
+            
+            .icons {
+                color: lightgrey;
+            }
+            .icons:hover {
+                color: $primary;
+            }
+            p{  
+                font-family: 'Courgette', cursive;
+                font-size: 1.4rem;
+            }
+    
+        }
+        .galere {
+            padding-bottom: 5%;
+            .icon1{
+                color: $primary;
             }
         }
+        .text-danger{
+            background-color: rgba(128, 128, 128, 0.299);
+        }
+        .menu {
+            img {
+                width: 70%;
+                border-radius: 100%;
+            }
+        }   
         
     }
 }

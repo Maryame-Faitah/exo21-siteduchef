@@ -99,7 +99,7 @@ header .carousel .deco {
   padding: 0;
 }
 
-.section1 .container .row {
+.section1 .container .row1 {
   margin: 0;
   width: 100%;
   -webkit-box-pack: justify;
@@ -107,61 +107,80 @@ header .carousel .deco {
           justify-content: space-between;
 }
 
-.section1 .container .row .col-2 {
+.section1 .container .row1 .col-2 {
   position: relative;
   padding: 0;
 }
 
-.section1 .container .row .col-center {
+.section1 .container .row1 .col-center {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-.section1 .container .row .left {
+.section1 .container .row1 .left {
   left: 5.6%;
 }
 
-.section1 .container .row span {
+.section1 .container .row1 span {
   color: #C42F40;
   font-size: 150%;
 }
 
-.section1 .container .row h2, .section1 .container .row span {
+.section1 .container .row1 h2, .section1 .container .row1 span {
   font-family: 'Courgette', cursive;
   text-align: center;
 }
 
-.section1 .container .row .col-3 .nav-pills, .section1 .container .row .col-3 .nav-link {
-  border-radius: 0;
+.section1 .container .div-icon {
+  padding-right: 0;
 }
 
-.section1 .container .row .col-3 #v-pills-tab {
-  border-right: 1px solid rgba(0, 0, 0, 0.335);
+.section1 .container .nav-pills {
+  text-align: center;
 }
 
-.section1 .container .row .col-3 .menu-list a {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.335);
-  margin-right: 2%;
-  color: black;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+.section1 .container .nav-pills #v-pills-home-tab {
+  border-bottom: 2px solid lightgrey;
+  border-right: 4px solid #C42F40;
 }
 
-.section1 .container .row .col-3 .menu-list a #icon1 {
+.section1 .container .nav-pills #v-pills-profile-tab, .section1 .container .nav-pills #v-pills-messages-tab, .section1 .container .nav-pills #v-pills-settings-tab {
+  border-bottom: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+}
+
+.section1 .container .nav-pills #v-pills-settings1-tab {
+  border-right: 2px solid lightgrey;
+}
+
+.section1 .container .nav-pills .icons {
+  color: lightgrey;
+}
+
+.section1 .container .nav-pills .icons:hover {
   color: #C42F40;
 }
 
-.section1 .container .row .col-3 .menu-list a .fa-3x {
-  color: rgba(128, 128, 128, 0.602);
-}
-
-.section1 .container .row .col-3 .menu-list a .fa-3x:hover {
-  color: #C42F40;
-}
-
-.section1 .container .row .col-3 .menu-list h3 {
+.section1 .container .nav-pills p {
   font-family: 'Courgette', cursive;
+  font-size: 1.4rem;
+}
+
+.section1 .container .galere {
+  padding-bottom: 5%;
+}
+
+.section1 .container .galere .icon1 {
+  color: #C42F40;
+}
+
+.section1 .container .text-danger {
+  background-color: rgba(128, 128, 128, 0.299);
+}
+
+.section1 .container .menu img {
+  width: 70%;
+  border-radius: 100%;
 }
 /*# sourceMappingURL=style.css.map */
