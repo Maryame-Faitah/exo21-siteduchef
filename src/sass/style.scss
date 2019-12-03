@@ -223,6 +223,7 @@ header{
         .col-center{
             align-self: center;
             line-height:0;
+            text-align: center;
         }
         .left{
             left: 5.6%;
@@ -277,6 +278,93 @@ header{
         }
     }
         
+}
+
+
+// SECTION3
+.container4{
+    background-image: url(../../public/img/testimonials_background.jpg);
+    .text-center{
+        line-height:0;
+        span{
+            color:$primary;
+            font-size: 150%;
+        }
+        h2,span{
+            font-family: 'Courgette', cursive;
+            text-align: center;
+        }
+        h2{
+            color:$secondary;
+        }
     }
+    .test-body{
+        width: 85%;
+        margin: 0 auto;
+
+        .manager{
+            div img{
+                border-radius: 100%;
+                border: solid 5px rgb(239, 239,239);
+                width: 80%;
+            }
+            .card {
+                border-radius: 20px;
+                .card-body .card-title{
+                    font-weight: bold;
+                }
+            }
+        
+        }
+    }
+
+}
+//contact
+.title{
+    line-height:0;
+    span{
+        color:$primary;
+        font-size: 150%;
+    }
+    h2,span{
+        font-family: 'Courgette', cursive;
+        text-align: center;
+    }
+    h2{
+        color:$tertiary;
+    }
+}
+.cadre{
+    border-radius: 10px;
+}
+
+//FOOTER
+footer{
+    position: relative;
+    .ftr-deco{
+        background-image: url(../../public/img/footer_bottom_decoration_img.png);
+        background-repeat: repeat-x;
+        height: 2vh;
+        width: 100%;
+        position: absolute;
+        top: 0%;
+    }
+    .social{
+        background-image: url(../../public/img/footer_background.jpg);
+        z-index: 5;
+        .row .col-insta div img{
+            width: 100%;
+        }
+        .mx-2{
+            font-size:80%;
+        }
+    }
+
+}
+
+
+
+
+
    
 

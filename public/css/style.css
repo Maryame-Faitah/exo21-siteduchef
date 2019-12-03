@@ -251,6 +251,7 @@ header .carousel .deco {
       -ms-grid-row-align: center;
       align-self: center;
   line-height: 0;
+  text-align: center;
 }
 
 .container3 .row1 .left {
@@ -317,5 +318,94 @@ header .carousel .deco {
 .container3 .text-center h2, .container3 .text-center span {
   font-family: 'Courgette', cursive;
   text-align: center;
+}
+
+.container4 {
+  background-image: url(../../public/img/testimonials_background.jpg);
+}
+
+.container4 .text-center {
+  line-height: 0;
+}
+
+.container4 .text-center span {
+  color: #C42F40;
+  font-size: 150%;
+}
+
+.container4 .text-center h2, .container4 .text-center span {
+  font-family: 'Courgette', cursive;
+  text-align: center;
+}
+
+.container4 .text-center h2 {
+  color: white;
+}
+
+.container4 .test-body {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.container4 .test-body .manager div img {
+  border-radius: 100%;
+  border: solid 5px #efefef;
+  width: 80%;
+}
+
+.container4 .test-body .manager .card {
+  border-radius: 20px;
+}
+
+.container4 .test-body .manager .card .card-body .card-title {
+  font-weight: bold;
+}
+
+.title {
+  line-height: 0;
+}
+
+.title span {
+  color: #C42F40;
+  font-size: 150%;
+}
+
+.title h2, .title span {
+  font-family: 'Courgette', cursive;
+  text-align: center;
+}
+
+.title h2 {
+  color: black;
+}
+
+.cadre {
+  border-radius: 10px;
+}
+
+footer {
+  position: relative;
+}
+
+footer .ftr-deco {
+  background-image: url(../../public/img/footer_bottom_decoration_img.png);
+  background-repeat: repeat-x;
+  height: 2vh;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+}
+
+footer .social {
+  background-image: url(../../public/img/footer_background.jpg);
+  z-index: 5;
+}
+
+footer .social .row .col-insta div img {
+  width: 100%;
+}
+
+footer .social .mx-2 {
+  font-size: 80%;
 }
 /*# sourceMappingURL=style.css.map */
