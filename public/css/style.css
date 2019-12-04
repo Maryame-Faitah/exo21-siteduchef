@@ -324,6 +324,11 @@ header .carousel .deco {
   border: 5px solid #efefef;
 }
 
+.container3 .blog .card .card-body {
+  position: relative;
+  bottom: 23%;
+}
+
 .container3 .blog .card .card-body h5 {
   font-weight: bold;
 }
